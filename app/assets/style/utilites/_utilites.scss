@@ -1,0 +1,43 @@
+.pt-5-6{
+    padding-top: $spacer * 0.9375; 
+}
+
+.mb-6-7{
+    margin-bottom: $spacer * 1.25;
+}
+
+@include media-breakpoint-up(md) {
+    .h-md-7r {
+        height: 1rem*7.5;
+    };
+    .ps-md-5-6{
+        padding-left: $spacer * 0.9375; 
+     }
+  }
+
+@include media-breakpoint-up(md) {
+    .fs-md-1 {
+        font-size: 1rem*2.25!important;
+    };
+    .fs-md-2 {
+        font-size: 1rem*2!important;
+    };
+    .fs-md-3 {
+        font-size: 1rem*1.75!important;
+    };
+    .fs-md-6 {
+        font-size: 1rem*1.25;
+    };
+}
+
+@include media-breakpoint-up(md) {
+    .w-md-25 {
+        width: 25%!important;
+    };
+    .w-md-50 {
+        width: 50%!important;
+    };
+    .w-md-100{
+        width: 100%!important;
+    }
+}

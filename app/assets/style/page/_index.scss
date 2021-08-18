@@ -1,0 +1,28 @@
+.stream-review{
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=true);
+  height: 464px;
+}
+
+.show-bg{
+  background: #190014CC;
+  opacity: .5;
+}
+
+@include media-breakpoint-up(md) {
+  .stream-review{
+    height: 482px;
+  }
+}
+
+.swiper-container {
+  overflow: hidden;
+}
+
+.swiper-slide{
+    width: 350px;
+  img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+  }
+}
