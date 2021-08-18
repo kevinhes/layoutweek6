@@ -17128,7 +17128,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: 'roboto', 'Noto Sans TC';
+  font-family: "Roboto", "Noto Sans TC";
 }
 
 p {
@@ -17298,7 +17298,13 @@ p {
 }
 
 .hot-event-img {
-  min-height: 350px;
+  min-height: 345px;
+}
+
+@media (min-width: 768px) {
+  .hot-event-img {
+    min-height: 350px;
+  }
 }
 
 .stream-review {
