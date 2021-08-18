@@ -17297,6 +17297,10 @@ p {
   }
 }
 
+.hot-event-img {
+  min-height: 350px;
+}
+
 .stream-review {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=true);
   height: 464px;
