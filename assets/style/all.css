@@ -17128,7 +17128,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: "Roboto", "Noto Sans TC";
+  font-family: Roboto, "Noto Sans TC";
 }
 
 p {
@@ -17153,6 +17153,9 @@ p {
 }
 
 @media (min-width: 768px) {
+  .fs-md-0 {
+    font-size: 2.5rem !important;
+  }
   .fs-md-1 {
     font-size: 2.25rem !important;
   }
@@ -17162,7 +17165,28 @@ p {
   .fs-md-3 {
     font-size: 1.75rem !important;
   }
+  .fs-md-4 {
+    font-size: 1.5rem !important;
+  }
   .fs-md-6 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-lg-0 {
+    font-size: 2.5rem !important;
+  }
+  .fs-lg-1 {
+    font-size: 2.25rem !important;
+  }
+  .fs-lg-2 {
+    font-size: 2rem !important;
+  }
+  .fs-lg-3 {
+    font-size: 1.75rem !important;
+  }
+  .fs-lg-6 {
     font-size: 1.25rem;
   }
 }
@@ -17232,7 +17256,6 @@ p {
 
 .shoping-cart {
   top: 80px;
-  left: 0;
   right: 0;
   bottom: 0;
 }
