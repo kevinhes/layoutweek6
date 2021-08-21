@@ -266,14 +266,17 @@ $spacers: (
   10: $spacer * 2.125,  // 34px
   11 : $spacer * 2.25,  // 36px
   12: $spacer * 2.5,    // 40px
-  13: $spacer * 3,      // 42px
+  13: $spacer * 3,      // 48px
   14: $spacer * 3.25,   // 52px
   15: $spacer * 3.5,    // 56px
   16: $spacer * 3.75,   // 60px
   17: $spacer * 4,      // 64px
   18: $spacer * 5,      // 80px
   19: $spacer * .9375,  // 15px
-  20: $spacer * 1.25    // 20x
+  20: $spacer * 1.25,    // 20x
+  21: $spacer * 6,     // 96x
+  22: $spacer * 6.25    // 100x
+
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -470,6 +473,7 @@ $h6-font-size:                $font-size-base * 1.25 !default;
 $h7-font-size:                $font-size-base !default;
 $h8-font-size:                $font-size-base * 0.875 !default;
 $h9-font-size:                $font-size-base * 0.75 !default;
+$h10-font-size:                $font-size-base * 2.75 !default;
 
 // scss-docs-end font-variables
 
@@ -484,7 +488,8 @@ $font-sizes: (
   6: $h6-font-size,
   7: $h7-font-size,
   8: $h8-font-size,
-  9: $h9-font-size
+  9: $h9-font-size,
+  10: $h10-font-size
 ) !default;
 // scss-docs-end font-sizes
 

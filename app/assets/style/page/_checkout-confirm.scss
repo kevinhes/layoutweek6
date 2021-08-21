@@ -1,0 +1,41 @@
+.time-line::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -8px;
+    height: 2px;
+    background: $secondary;
+}
+
+.time-on-point::after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: $secondary;
+    top: -10px;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.time-point::after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border: 1px solid $secondary;
+    top: -10px;
+    left: 50%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.check-cart-img{
+    height: 84px;
+}
+
+.cart-ticket-qty{
+    width: 22px;
+}

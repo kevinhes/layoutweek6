@@ -6,3 +6,7 @@
 .img-fit-cover{
     object-fit: cover;
 }
+
+.vh-100-header{
+    height: calc(100vh - 112px);
+}
